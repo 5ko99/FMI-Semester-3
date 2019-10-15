@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/SocialNetwork.dir/main.cpp.o CMakeFiles/SocialNetwork.dir/DisjointSet.cpp.o CMakeFiles/SocialNetwork.dir/ReadFromFile.cpp.o  -o SocialNetwork 

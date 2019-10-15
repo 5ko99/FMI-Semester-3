@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/petko/Workspace/FMI-Semester-3/Union-Find/Graphs/DisjointSet.h
+fstream
+-
+
+/home/petko/Workspace/FMI-Semester-3/Union-Find/Graphs/main.cpp
+iostream
+-
+DisjointSet.h
+/home/petko/Workspace/FMI-Semester-3/Union-Find/Graphs/DisjointSet.h
+fstream
+-
+

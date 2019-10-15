@@ -4,7 +4,9 @@
 
 #ifndef GRAPHS_DISJOINTSET_H
 #define GRAPHS_DISJOINTSET_H
+using namespace std;
 
+#include <fstream>
 
 class DisjointSet {
     public:
@@ -14,6 +16,8 @@ class DisjointSet {
     explicit DisjointSet(int=0);
     DisjointSet(const DisjointSet&);
     ~DisjointSet();
+    friend ostream& operator<<(ostream&, DisjointSet const & );
+
     DisjointSet& operator=(const DisjointSet&);
     bool checkConnectivity(int, int) const;
     void connectSets(int,int);

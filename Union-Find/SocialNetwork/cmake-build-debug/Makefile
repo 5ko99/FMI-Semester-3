@@ -48,10 +48,10 @@ RM = /snap/clion/88/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/petko/Workspace/FMI-Semester-3/Union-Find/Graphs
+CMAKE_SOURCE_DIR = /home/petko/Workspace/FMI-Semester-3/Union-Find/SocialNetwork
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/petko/Workspace/FMI-Semester-3/Union-Find/Graphs/cmake-build-debug
+CMAKE_BINARY_DIR = /home/petko/Workspace/FMI-Semester-3/Union-Find/SocialNetwork/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/petko/Workspace/FMI-Semester-3/Union-Find/Graphs/cmake-build-debug/CMakeFiles /home/petko/Workspace/FMI-Semester-3/Union-Find/Graphs/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/petko/Workspace/FMI-Semester-3/Union-Find/SocialNetwork/cmake-build-debug/CMakeFiles /home/petko/Workspace/FMI-Semester-3/Union-Find/SocialNetwork/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/petko/Workspace/FMI-Semester-3/Union-Find/Graphs/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/petko/Workspace/FMI-Semester-3/Union-Find/SocialNetwork/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Graphs
+# Target rules for targets named SocialNetwork
 
 # Build rule for target.
-Graphs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Graphs
-.PHONY : Graphs
+SocialNetwork: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 SocialNetwork
+.PHONY : SocialNetwork
 
 # fast build rule for target.
-Graphs/fast:
-	$(MAKE) -f CMakeFiles/Graphs.dir/build.make CMakeFiles/Graphs.dir/build
-.PHONY : Graphs/fast
+SocialNetwork/fast:
+	$(MAKE) -f CMakeFiles/SocialNetwork.dir/build.make CMakeFiles/SocialNetwork.dir/build
+.PHONY : SocialNetwork/fast
 
 DisjointSet.o: DisjointSet.cpp.o
 
@@ -129,7 +129,7 @@ DisjointSet.o: DisjointSet.cpp.o
 
 # target to build an object file
 DisjointSet.cpp.o:
-	$(MAKE) -f CMakeFiles/Graphs.dir/build.make CMakeFiles/Graphs.dir/DisjointSet.cpp.o
+	$(MAKE) -f CMakeFiles/SocialNetwork.dir/build.make CMakeFiles/SocialNetwork.dir/DisjointSet.cpp.o
 .PHONY : DisjointSet.cpp.o
 
 DisjointSet.i: DisjointSet.cpp.i
@@ -138,7 +138,7 @@ DisjointSet.i: DisjointSet.cpp.i
 
 # target to preprocess a source file
 DisjointSet.cpp.i:
-	$(MAKE) -f CMakeFiles/Graphs.dir/build.make CMakeFiles/Graphs.dir/DisjointSet.cpp.i
+	$(MAKE) -f CMakeFiles/SocialNetwork.dir/build.make CMakeFiles/SocialNetwork.dir/DisjointSet.cpp.i
 .PHONY : DisjointSet.cpp.i
 
 DisjointSet.s: DisjointSet.cpp.s
@@ -147,8 +147,35 @@ DisjointSet.s: DisjointSet.cpp.s
 
 # target to generate assembly for a file
 DisjointSet.cpp.s:
-	$(MAKE) -f CMakeFiles/Graphs.dir/build.make CMakeFiles/Graphs.dir/DisjointSet.cpp.s
+	$(MAKE) -f CMakeFiles/SocialNetwork.dir/build.make CMakeFiles/SocialNetwork.dir/DisjointSet.cpp.s
 .PHONY : DisjointSet.cpp.s
+
+ReadFromFile.o: ReadFromFile.cpp.o
+
+.PHONY : ReadFromFile.o
+
+# target to build an object file
+ReadFromFile.cpp.o:
+	$(MAKE) -f CMakeFiles/SocialNetwork.dir/build.make CMakeFiles/SocialNetwork.dir/ReadFromFile.cpp.o
+.PHONY : ReadFromFile.cpp.o
+
+ReadFromFile.i: ReadFromFile.cpp.i
+
+.PHONY : ReadFromFile.i
+
+# target to preprocess a source file
+ReadFromFile.cpp.i:
+	$(MAKE) -f CMakeFiles/SocialNetwork.dir/build.make CMakeFiles/SocialNetwork.dir/ReadFromFile.cpp.i
+.PHONY : ReadFromFile.cpp.i
+
+ReadFromFile.s: ReadFromFile.cpp.s
+
+.PHONY : ReadFromFile.s
+
+# target to generate assembly for a file
+ReadFromFile.cpp.s:
+	$(MAKE) -f CMakeFiles/SocialNetwork.dir/build.make CMakeFiles/SocialNetwork.dir/ReadFromFile.cpp.s
+.PHONY : ReadFromFile.cpp.s
 
 main.o: main.cpp.o
 
@@ -156,7 +183,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/Graphs.dir/build.make CMakeFiles/Graphs.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/SocialNetwork.dir/build.make CMakeFiles/SocialNetwork.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -165,7 +192,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/Graphs.dir/build.make CMakeFiles/Graphs.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/SocialNetwork.dir/build.make CMakeFiles/SocialNetwork.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -174,7 +201,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/Graphs.dir/build.make CMakeFiles/Graphs.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/SocialNetwork.dir/build.make CMakeFiles/SocialNetwork.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -184,11 +211,14 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... Graphs"
+	@echo "... SocialNetwork"
 	@echo "... edit_cache"
 	@echo "... DisjointSet.o"
 	@echo "... DisjointSet.i"
 	@echo "... DisjointSet.s"
+	@echo "... ReadFromFile.o"
+	@echo "... ReadFromFile.i"
+	@echo "... ReadFromFile.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

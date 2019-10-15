@@ -40,6 +40,12 @@ DisjointSet& DisjointSet::operator=(const DisjointSet & ds){
     }
     return *this;
 }
+ostream& operator<<(ostream& ostr, DisjointSet const & ds){
+    for(int i=0;i<ds.lenght;i++){
+        ostr<<ds.element[i]<<' ';
+    }
+    ostr<<endl;
+}
 void DisjointSet::connectSets(int p, int q) {
     if(element[p!=element[q]]) {
         const int idP = element[p];
@@ -52,6 +58,7 @@ void DisjointSet::connectSets(int p, int q) {
 bool DisjointSet::checkConnectivity(int p, int q) const {
     return (element[p]==element[q]);
 }
+
 //For Quick-Union approach
 int DisjointSet::getRoot(int p){
 //    while (p!=element[p]){
@@ -67,13 +74,15 @@ bool DisjointSet::connected(int p, int q) {
     return (getRoot(p)==getRoot(q));
 }
 void DisjointSet::connect(int p, int q) {
-    int i = getRoot(p);
-    int j = getRoot(q);
-    if(sz[i]<sz[j]){
-        element[i]=j;
-        sz[j]+=sz[i];
-    }else{
-        element[j]=i;
-        sz[i]+=sz[j];
+    int pRoot = getRoot(p);
+    int qRoot = getRoot(q);
+    if(pRoot!=qRoot) {
+        if (sz[pRoot] < sz[qRoot]) {
+            element[pRoot] = qRoot;
+            sz[qRoot] += sz[pRoot];
+        } else {
+            element[qRoot] = pRoot;
+            sz[pRoot] += sz[qRoot];
+        }
     }
 }

@@ -1,4 +1,4 @@
-# Install script for directory: /home/petko/Workspace/FMI-Semester-3/Union-Find/Graphs
+# Install script for directory: /home/petko/Workspace/FMI-Semester-3/Union-Find/SocialNetwork
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/petko/Workspace/FMI-Semester-3/Union-Find/Graphs/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/petko/Workspace/FMI-Semester-3/Union-Find/SocialNetwork/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

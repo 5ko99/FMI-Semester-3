@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/petko/Workspace/FMI-Semester-3/Union-Find/SocialNetwork/DisjointSet.h
+fstream
+-
+
+/home/petko/Workspace/FMI-Semester-3/Union-Find/SocialNetwork/ReadFromFile.h
+fstream
+-
+
+/home/petko/Workspace/FMI-Semester-3/Union-Find/SocialNetwork/main.cpp
+iostream
+-
+ReadFromFile.h
+/home/petko/Workspace/FMI-Semester-3/Union-Find/SocialNetwork/ReadFromFile.h
+DisjointSet.h
+/home/petko/Workspace/FMI-Semester-3/Union-Find/SocialNetwork/DisjointSet.h
+

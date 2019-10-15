@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/85/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/88/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/85/bin/cmake/linux/bin/cmake -E remove -f
+RM = /snap/clion/88/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/petko/Workspace/FMI-Semester-3/8.10.19/Graphs
+CMAKE_SOURCE_DIR = /home/petko/Workspace/FMI-Semester-3/Union-Find/Graphs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/petko/Workspace/FMI-Semester-3/8.10.19/Graphs/cmake-build-debug
+CMAKE_BINARY_DIR = /home/petko/Workspace/FMI-Semester-3/Union-Find/Graphs/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Graphs.dir/depend.make
@@ -59,29 +59,29 @@ include CMakeFiles/Graphs.dir/flags.make
 
 CMakeFiles/Graphs.dir/main.cpp.o: CMakeFiles/Graphs.dir/flags.make
 CMakeFiles/Graphs.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/petko/Workspace/FMI-Semester-3/8.10.19/Graphs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Graphs.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Graphs.dir/main.cpp.o -c /home/petko/Workspace/FMI-Semester-3/8.10.19/Graphs/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/petko/Workspace/FMI-Semester-3/Union-Find/Graphs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Graphs.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Graphs.dir/main.cpp.o -c /home/petko/Workspace/FMI-Semester-3/Union-Find/Graphs/main.cpp
 
 CMakeFiles/Graphs.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Graphs.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/petko/Workspace/FMI-Semester-3/8.10.19/Graphs/main.cpp > CMakeFiles/Graphs.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/petko/Workspace/FMI-Semester-3/Union-Find/Graphs/main.cpp > CMakeFiles/Graphs.dir/main.cpp.i
 
 CMakeFiles/Graphs.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Graphs.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/petko/Workspace/FMI-Semester-3/8.10.19/Graphs/main.cpp -o CMakeFiles/Graphs.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/petko/Workspace/FMI-Semester-3/Union-Find/Graphs/main.cpp -o CMakeFiles/Graphs.dir/main.cpp.s
 
 CMakeFiles/Graphs.dir/DisjointSet.cpp.o: CMakeFiles/Graphs.dir/flags.make
 CMakeFiles/Graphs.dir/DisjointSet.cpp.o: ../DisjointSet.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/petko/Workspace/FMI-Semester-3/8.10.19/Graphs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Graphs.dir/DisjointSet.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Graphs.dir/DisjointSet.cpp.o -c /home/petko/Workspace/FMI-Semester-3/8.10.19/Graphs/DisjointSet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/petko/Workspace/FMI-Semester-3/Union-Find/Graphs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Graphs.dir/DisjointSet.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Graphs.dir/DisjointSet.cpp.o -c /home/petko/Workspace/FMI-Semester-3/Union-Find/Graphs/DisjointSet.cpp
 
 CMakeFiles/Graphs.dir/DisjointSet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Graphs.dir/DisjointSet.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/petko/Workspace/FMI-Semester-3/8.10.19/Graphs/DisjointSet.cpp > CMakeFiles/Graphs.dir/DisjointSet.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/petko/Workspace/FMI-Semester-3/Union-Find/Graphs/DisjointSet.cpp > CMakeFiles/Graphs.dir/DisjointSet.cpp.i
 
 CMakeFiles/Graphs.dir/DisjointSet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Graphs.dir/DisjointSet.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/petko/Workspace/FMI-Semester-3/8.10.19/Graphs/DisjointSet.cpp -o CMakeFiles/Graphs.dir/DisjointSet.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/petko/Workspace/FMI-Semester-3/Union-Find/Graphs/DisjointSet.cpp -o CMakeFiles/Graphs.dir/DisjointSet.cpp.s
 
 # Object files for target Graphs
 Graphs_OBJECTS = \
@@ -95,7 +95,7 @@ Graphs: CMakeFiles/Graphs.dir/main.cpp.o
 Graphs: CMakeFiles/Graphs.dir/DisjointSet.cpp.o
 Graphs: CMakeFiles/Graphs.dir/build.make
 Graphs: CMakeFiles/Graphs.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/petko/Workspace/FMI-Semester-3/8.10.19/Graphs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Graphs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/petko/Workspace/FMI-Semester-3/Union-Find/Graphs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Graphs"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Graphs.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -108,6 +108,6 @@ CMakeFiles/Graphs.dir/clean:
 .PHONY : CMakeFiles/Graphs.dir/clean
 
 CMakeFiles/Graphs.dir/depend:
-	cd /home/petko/Workspace/FMI-Semester-3/8.10.19/Graphs/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/petko/Workspace/FMI-Semester-3/8.10.19/Graphs /home/petko/Workspace/FMI-Semester-3/8.10.19/Graphs /home/petko/Workspace/FMI-Semester-3/8.10.19/Graphs/cmake-build-debug /home/petko/Workspace/FMI-Semester-3/8.10.19/Graphs/cmake-build-debug /home/petko/Workspace/FMI-Semester-3/8.10.19/Graphs/cmake-build-debug/CMakeFiles/Graphs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/petko/Workspace/FMI-Semester-3/Union-Find/Graphs/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/petko/Workspace/FMI-Semester-3/Union-Find/Graphs /home/petko/Workspace/FMI-Semester-3/Union-Find/Graphs /home/petko/Workspace/FMI-Semester-3/Union-Find/Graphs/cmake-build-debug /home/petko/Workspace/FMI-Semester-3/Union-Find/Graphs/cmake-build-debug /home/petko/Workspace/FMI-Semester-3/Union-Find/Graphs/cmake-build-debug/CMakeFiles/Graphs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Graphs.dir/depend
 

@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/petko/Workspace/FMI-Semester-3/8.10.19/Graphs/DisjointSet.cpp" "/home/petko/Workspace/FMI-Semester-3/8.10.19/Graphs/cmake-build-debug/CMakeFiles/Graphs.dir/DisjointSet.cpp.o"
-  "/home/petko/Workspace/FMI-Semester-3/8.10.19/Graphs/main.cpp" "/home/petko/Workspace/FMI-Semester-3/8.10.19/Graphs/cmake-build-debug/CMakeFiles/Graphs.dir/main.cpp.o"
+  "/home/petko/Workspace/FMI-Semester-3/Union-Find/Graphs/DisjointSet.cpp" "/home/petko/Workspace/FMI-Semester-3/Union-Find/Graphs/cmake-build-debug/CMakeFiles/Graphs.dir/DisjointSet.cpp.o"
+  "/home/petko/Workspace/FMI-Semester-3/Union-Find/Graphs/main.cpp" "/home/petko/Workspace/FMI-Semester-3/Union-Find/Graphs/cmake-build-debug/CMakeFiles/Graphs.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
