@@ -62,7 +62,7 @@ int DisjointSet::getRoot(int p){
 bool DisjointSet::checkConnectivity(int p, int q){
     return (getRoot(p)==getRoot(q));
 }
-void DisjointSet::connectSets(int p, int q){
+bool DisjointSet::connectSets(int p, int q){
     int pRoot = getRoot(p);
     int qRoot = getRoot(q);
     if(pRoot!=qRoot) {
@@ -73,5 +73,8 @@ void DisjointSet::connectSets(int p, int q){
             root[qRoot] = pRoot;
             sz[pRoot] += sz[qRoot];
         }
+        return true;
+    }else{
+        return  false;
     }
 }

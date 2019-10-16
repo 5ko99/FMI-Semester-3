@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/UnitTest_Demo.dir/main.cpp.o CMakeFiles/UnitTest_Demo.dir/Sort.cpp.o  -o UnitTest_Demo 

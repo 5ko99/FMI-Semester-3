@@ -1,0 +1,40 @@
+d=0: 1 2 3 4 5
+d=1: 2 3 4 5 1
+d=2: 3 4 5 1 2
+d=3: 4 5 1 2 3
+d=4: 5 1 2 3 4
+d=5: 1 2 3 4 5
+Code from Petyr Subev
+#include <iostream>
+#include <vector>
+using namespace std;
+vector<int> arrayLeftRotation(
+        const vector<int>& integers,
+        int numberOfIntegers,
+        int numberOfLeftRotations
+        ) {
+    numberOfLeftRotations %= numberOfIntegers;
+    vector<int> vec(numberOfIntegers);
+    for (int i = 0; i < numberOfIntegers; i++) {
+        vec[i] = integers[(i+numberOfLeftRotations)%numberOfIntegers];
+    }
+    return vec;
+}
+
+int main() {
+    int numberOfIntegers;
+    int numberOfLeftRotations;
+    cin >> numberOfIntegers >> numberOfLeftRotations;
+
+    vector<int> integers(numberOfIntegers);
+    for (int i = 0; i < numberOfIntegers; i++) {
+        cin >> integers[i];
+    }
+
+    vector<int> output = arrayLeftRotation(integers, numberOfIntegers, numberOfLeftRotations);
+    for (int i = 0; i < numberOfIntegers; i++)
+        cout << output[i] << " ";
+    cout << endl;
+
+    return 0;
+}

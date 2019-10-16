@@ -21,7 +21,7 @@ public:
 
     int getRoot(int);
     bool checkConnectivity(int,int);
-    void connectSets(int,int);
+    bool connectSets(int,int);
     int getSize(int) const;
 
 };

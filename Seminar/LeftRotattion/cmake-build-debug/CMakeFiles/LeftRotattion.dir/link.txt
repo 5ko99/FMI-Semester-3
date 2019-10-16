@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/LeftRotattion.dir/main.cpp.o  -o LeftRotattion 
