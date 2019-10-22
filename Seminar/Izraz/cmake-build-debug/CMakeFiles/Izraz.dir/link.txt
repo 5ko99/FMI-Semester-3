@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Izraz.dir/main.cpp.o  -o Izraz 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/StackZadachi.dir/main.cpp.o CMakeFiles/StackZadachi.dir/Stack.cpp.o  -o StackZadachi 

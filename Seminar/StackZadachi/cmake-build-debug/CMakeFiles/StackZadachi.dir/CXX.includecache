@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/petko/Workspace/FMI-Semester-3/Seminar/StackZadachi/Stack.cpp
+Stack.h
+/home/petko/Workspace/FMI-Semester-3/Seminar/StackZadachi/Stack.h
+
+/home/petko/Workspace/FMI-Semester-3/Seminar/StackZadachi/Stack.h
+iostream
+-
+cstring
+-
+
+/home/petko/Workspace/FMI-Semester-3/Seminar/StackZadachi/main.cpp
+Stack.cpp
+/home/petko/Workspace/FMI-Semester-3/Seminar/StackZadachi/Stack.cpp
+
