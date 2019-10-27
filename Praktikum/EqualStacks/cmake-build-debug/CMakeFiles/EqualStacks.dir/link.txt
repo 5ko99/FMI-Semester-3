@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/EqualStacks.dir/main.cpp.o  -o EqualStacks 

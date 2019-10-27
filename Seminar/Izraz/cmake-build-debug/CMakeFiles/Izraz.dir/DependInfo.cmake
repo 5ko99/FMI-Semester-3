@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/petko/Workspace/FMI-Semester-3/Seminar/Izraz/main.cpp" "/home/petko/Workspace/FMI-Semester-3/Seminar/Izraz/cmake-build-debug/CMakeFiles/Izraz.dir/main.cpp.o"
+  "/home/petko/WorkSpace/FMI-Semester-3/Seminar/Izraz/main.cpp" "/home/petko/WorkSpace/FMI-Semester-3/Seminar/Izraz/cmake-build-debug/CMakeFiles/Izraz.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/petko/Workspace/FMI-Semester-3/Seminar/Stack/library.cpp" "/home/petko/Workspace/FMI-Semester-3/Seminar/Stack/cmake-build-debug/CMakeFiles/Stack.dir/library.cpp.o"
+  "/home/petko/WorkSpace/FMI-Semester-3/Seminar/Stack/library.cpp" "/home/petko/WorkSpace/FMI-Semester-3/Seminar/Stack/cmake-build-debug/CMakeFiles/Stack.dir/library.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
