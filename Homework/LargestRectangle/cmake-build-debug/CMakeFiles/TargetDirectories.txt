@@ -1,0 +1,3 @@
+/home/petko/WorkSpace/FMI-Semester-3/Homework/LargestRectangle/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/petko/WorkSpace/FMI-Semester-3/Homework/LargestRectangle/cmake-build-debug/CMakeFiles/LargestRectangle.dir
+/home/petko/WorkSpace/FMI-Semester-3/Homework/LargestRectangle/cmake-build-debug/CMakeFiles/edit_cache.dir

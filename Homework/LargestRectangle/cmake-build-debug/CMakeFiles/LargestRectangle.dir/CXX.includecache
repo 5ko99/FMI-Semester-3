@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/petko/WorkSpace/FMI-Semester-3/Homework/LargestRectangle/main.cpp
+iostream
+-
+vector
+-
+stack
+-
+

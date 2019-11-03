@@ -44,21 +44,21 @@ RM = /snap/clion/92/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/petko/WorkSpace/FMI-Semester-3/Homework/Queue
+CMAKE_SOURCE_DIR = /home/petko/WorkSpace/FMI-Semester-3/Homework/LargestRectangle
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/petko/WorkSpace/FMI-Semester-3/Homework/Queue/cmake-build-debug
+CMAKE_BINARY_DIR = /home/petko/WorkSpace/FMI-Semester-3/Homework/LargestRectangle/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/Queue.dir/all
+all: CMakeFiles/LargestRectangle.dir/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
-clean: CMakeFiles/Queue.dir/clean
+clean: CMakeFiles/LargestRectangle.dir/clean
 
 .PHONY : clean
 
@@ -68,31 +68,31 @@ preinstall:
 .PHONY : preinstall
 
 #=============================================================================
-# Target rules for target CMakeFiles/Queue.dir
+# Target rules for target CMakeFiles/LargestRectangle.dir
 
 # All Build rule for target.
-CMakeFiles/Queue.dir/all:
-	$(MAKE) -f CMakeFiles/Queue.dir/build.make CMakeFiles/Queue.dir/depend
-	$(MAKE) -f CMakeFiles/Queue.dir/build.make CMakeFiles/Queue.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/petko/WorkSpace/FMI-Semester-3/Homework/Queue/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target Queue"
-.PHONY : CMakeFiles/Queue.dir/all
+CMakeFiles/LargestRectangle.dir/all:
+	$(MAKE) -f CMakeFiles/LargestRectangle.dir/build.make CMakeFiles/LargestRectangle.dir/depend
+	$(MAKE) -f CMakeFiles/LargestRectangle.dir/build.make CMakeFiles/LargestRectangle.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/petko/WorkSpace/FMI-Semester-3/Homework/LargestRectangle/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target LargestRectangle"
+.PHONY : CMakeFiles/LargestRectangle.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Queue.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/petko/WorkSpace/FMI-Semester-3/Homework/Queue/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Queue.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/petko/WorkSpace/FMI-Semester-3/Homework/Queue/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/Queue.dir/rule
+CMakeFiles/LargestRectangle.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/petko/WorkSpace/FMI-Semester-3/Homework/LargestRectangle/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/LargestRectangle.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/petko/WorkSpace/FMI-Semester-3/Homework/LargestRectangle/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/LargestRectangle.dir/rule
 
 # Convenience name for target.
-Queue: CMakeFiles/Queue.dir/rule
+LargestRectangle: CMakeFiles/LargestRectangle.dir/rule
 
-.PHONY : Queue
+.PHONY : LargestRectangle
 
 # clean rule for target.
-CMakeFiles/Queue.dir/clean:
-	$(MAKE) -f CMakeFiles/Queue.dir/build.make CMakeFiles/Queue.dir/clean
-.PHONY : CMakeFiles/Queue.dir/clean
+CMakeFiles/LargestRectangle.dir/clean:
+	$(MAKE) -f CMakeFiles/LargestRectangle.dir/build.make CMakeFiles/LargestRectangle.dir/clean
+.PHONY : CMakeFiles/LargestRectangle.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
