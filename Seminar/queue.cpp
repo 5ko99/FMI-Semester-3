@@ -29,7 +29,16 @@ LQueue<T>& LQueue<T>::operator=(LQueue<T> const& q) {
 template <typename T>
 void LQueue<T>::push(T const& x) {
 	//TODO
-    
+    Node<T> newElemPtr = new Node<T>();
+    newElemPtr->data=x;
+    newElemPtr->next=nullptr;
+    if(isEmpty()){
+       front=newElemPtr;
+       
+    }else{
+        rear->next=newElemPtr;
+    }
+    rear=newElemPtr;
 }
 
 template <typename T>

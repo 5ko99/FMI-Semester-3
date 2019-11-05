@@ -1,0 +1,3 @@
+D:/Petko/SortQueue/cmake-build-debug/CMakeFiles/SortQueue.dir
+D:/Petko/SortQueue/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Petko/SortQueue/cmake-build-debug/CMakeFiles/rebuild_cache.dir

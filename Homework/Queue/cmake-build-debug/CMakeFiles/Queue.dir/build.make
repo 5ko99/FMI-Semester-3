@@ -43,10 +43,10 @@ RM = /snap/clion/88/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/petko/WorkSpace/FMI-Semester-3/Homework/Queue
+CMAKE_SOURCE_DIR = /home/petko/Workspace/FMI-Semester-3/Homework/Queue
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/petko/WorkSpace/FMI-Semester-3/Homework/Queue/cmake-build-debug
+CMAKE_BINARY_DIR = /home/petko/Workspace/FMI-Semester-3/Homework/Queue/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Queue.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/Queue.dir/flags.make
 
 CMakeFiles/Queue.dir/library.cpp.o: CMakeFiles/Queue.dir/flags.make
 CMakeFiles/Queue.dir/library.cpp.o: ../library.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/petko/WorkSpace/FMI-Semester-3/Homework/Queue/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Queue.dir/library.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Queue.dir/library.cpp.o -c /home/petko/WorkSpace/FMI-Semester-3/Homework/Queue/library.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/petko/Workspace/FMI-Semester-3/Homework/Queue/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Queue.dir/library.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Queue.dir/library.cpp.o -c /home/petko/Workspace/FMI-Semester-3/Homework/Queue/library.cpp
 
 CMakeFiles/Queue.dir/library.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Queue.dir/library.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/petko/WorkSpace/FMI-Semester-3/Homework/Queue/library.cpp > CMakeFiles/Queue.dir/library.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/petko/Workspace/FMI-Semester-3/Homework/Queue/library.cpp > CMakeFiles/Queue.dir/library.cpp.i
 
 CMakeFiles/Queue.dir/library.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Queue.dir/library.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/petko/WorkSpace/FMI-Semester-3/Homework/Queue/library.cpp -o CMakeFiles/Queue.dir/library.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/petko/Workspace/FMI-Semester-3/Homework/Queue/library.cpp -o CMakeFiles/Queue.dir/library.cpp.s
 
 # Object files for target Queue
 Queue_OBJECTS = \
@@ -80,7 +80,7 @@ Queue_EXTERNAL_OBJECTS =
 libQueue.a: CMakeFiles/Queue.dir/library.cpp.o
 libQueue.a: CMakeFiles/Queue.dir/build.make
 libQueue.a: CMakeFiles/Queue.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/petko/WorkSpace/FMI-Semester-3/Homework/Queue/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libQueue.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/petko/Workspace/FMI-Semester-3/Homework/Queue/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libQueue.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/Queue.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Queue.dir/link.txt --verbose=$(VERBOSE)
 
@@ -94,6 +94,6 @@ CMakeFiles/Queue.dir/clean:
 .PHONY : CMakeFiles/Queue.dir/clean
 
 CMakeFiles/Queue.dir/depend:
-	cd /home/petko/WorkSpace/FMI-Semester-3/Homework/Queue/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/petko/WorkSpace/FMI-Semester-3/Homework/Queue /home/petko/WorkSpace/FMI-Semester-3/Homework/Queue /home/petko/WorkSpace/FMI-Semester-3/Homework/Queue/cmake-build-debug /home/petko/WorkSpace/FMI-Semester-3/Homework/Queue/cmake-build-debug /home/petko/WorkSpace/FMI-Semester-3/Homework/Queue/cmake-build-debug/CMakeFiles/Queue.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/petko/Workspace/FMI-Semester-3/Homework/Queue/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/petko/Workspace/FMI-Semester-3/Homework/Queue /home/petko/Workspace/FMI-Semester-3/Homework/Queue /home/petko/Workspace/FMI-Semester-3/Homework/Queue/cmake-build-debug /home/petko/Workspace/FMI-Semester-3/Homework/Queue/cmake-build-debug /home/petko/Workspace/FMI-Semester-3/Homework/Queue/cmake-build-debug/CMakeFiles/Queue.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Queue.dir/depend
 
