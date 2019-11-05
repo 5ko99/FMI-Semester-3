@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-/snap/clion/88/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/petko/Workspace/FMI-Semester-3/Homework/Queue
+/snap/clion/92/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/petko/WorkSpace/FMI-Semester-3/Homework/LargestRectangle
 -- The C compiler identification is GNU 7.4.0
 -- The CXX compiler identification is GNU 7.4.0
 -- Check for working C compiler: /usr/bin/cc
@@ -14,9 +13,6 @@
 -- Detecting CXX compiler ABI info - done
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
-=======
-/snap/clion/92/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/petko/WorkSpace/FMI-Semester-3/Homework/Queue
->>>>>>> bd6da06d6e7887d9d279fdb393bca94a3ceedc0c
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/petko/Workspace/FMI-Semester-3/Homework/Queue/cmake-build-debug
+-- Build files have been written to: /home/petko/WorkSpace/FMI-Semester-3/Homework/LargestRectangle/cmake-build-debug

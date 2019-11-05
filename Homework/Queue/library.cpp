@@ -51,8 +51,10 @@ void LQueue<T>::push(const T & x) {
     newElemPtr->data=x;
     newElemPtr->next= nullptr;
     if(!empty()){
+        //If it's not empty
         tail->next=newElemPtr;
     }else{
+        //If is empty
         head=newElemPtr;
     }
     tail=newElemPtr;

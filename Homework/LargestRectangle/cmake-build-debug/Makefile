@@ -48,10 +48,10 @@ RM = /snap/clion/92/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/petko/Workspace/FMI-Semester-3/Homework/Queue
+CMAKE_SOURCE_DIR = /home/petko/WorkSpace/FMI-Semester-3/Homework/LargestRectangle
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/petko/Workspace/FMI-Semester-3/Homework/Queue/cmake-build-debug
+CMAKE_BINARY_DIR = /home/petko/WorkSpace/FMI-Semester-3/Homework/LargestRectangle/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/petko/Workspace/FMI-Semester-3/Homework/Queue/cmake-build-debug/CMakeFiles /home/petko/Workspace/FMI-Semester-3/Homework/Queue/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/petko/WorkSpace/FMI-Semester-3/Homework/LargestRectangle/cmake-build-debug/CMakeFiles /home/petko/WorkSpace/FMI-Semester-3/Homework/LargestRectangle/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/petko/Workspace/FMI-Semester-3/Homework/Queue/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/petko/WorkSpace/FMI-Semester-3/Homework/LargestRectangle/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,44 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Queue
+# Target rules for targets named LargestRectangle
 
 # Build rule for target.
-Queue: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Queue
-.PHONY : Queue
+LargestRectangle: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 LargestRectangle
+.PHONY : LargestRectangle
 
 # fast build rule for target.
-Queue/fast:
-	$(MAKE) -f CMakeFiles/Queue.dir/build.make CMakeFiles/Queue.dir/build
-.PHONY : Queue/fast
+LargestRectangle/fast:
+	$(MAKE) -f CMakeFiles/LargestRectangle.dir/build.make CMakeFiles/LargestRectangle.dir/build
+.PHONY : LargestRectangle/fast
 
-library.o: library.cpp.o
+main.o: main.cpp.o
 
-.PHONY : library.o
+.PHONY : main.o
 
 # target to build an object file
-library.cpp.o:
-	$(MAKE) -f CMakeFiles/Queue.dir/build.make CMakeFiles/Queue.dir/library.cpp.o
-.PHONY : library.cpp.o
+main.cpp.o:
+	$(MAKE) -f CMakeFiles/LargestRectangle.dir/build.make CMakeFiles/LargestRectangle.dir/main.cpp.o
+.PHONY : main.cpp.o
 
-library.i: library.cpp.i
+main.i: main.cpp.i
 
-.PHONY : library.i
+.PHONY : main.i
 
 # target to preprocess a source file
-library.cpp.i:
-	$(MAKE) -f CMakeFiles/Queue.dir/build.make CMakeFiles/Queue.dir/library.cpp.i
-.PHONY : library.cpp.i
+main.cpp.i:
+	$(MAKE) -f CMakeFiles/LargestRectangle.dir/build.make CMakeFiles/LargestRectangle.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-library.s: library.cpp.s
+main.s: main.cpp.s
 
-.PHONY : library.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-library.cpp.s:
-	$(MAKE) -f CMakeFiles/Queue.dir/build.make CMakeFiles/Queue.dir/library.cpp.s
-.PHONY : library.cpp.s
+main.cpp.s:
+	$(MAKE) -f CMakeFiles/LargestRectangle.dir/build.make CMakeFiles/LargestRectangle.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -157,11 +157,11 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... Queue"
+	@echo "... LargestRectangle"
 	@echo "... edit_cache"
-	@echo "... library.o"
-	@echo "... library.i"
-	@echo "... library.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 
