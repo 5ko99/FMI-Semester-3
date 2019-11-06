@@ -31,8 +31,8 @@ bool willApplesRot(vector<vector<int>> box, int& time){
     int m=box[1].size();
     queue<pair<int,int>> q;
     int counter =0;
-    for(int i=0;i<box.size();i++){
-        for(int j=0;j<box[i].size();j++){
+    for(unsigned long i=0;i<box.size();i++){
+        for(unsigned long j=0;j<box[i].size();j++){
             if(box[i][j]==2){
                 q.push(pair<int,int>(i,j));
             }
@@ -48,34 +48,37 @@ bool willApplesRot(vector<vector<int>> box, int& time){
         if(p==dummy){
             time++;
             q.push(dummy);
-        }
-        //Right
-        if(p.second+1<m && box[p.first][p.second+1]==1){
-            box[p.first][p.second+1]=2;
-            q.push(pair<int,int>(p.first,p.second+1));
-            counter--;
-            if(counter==0) return true;
-        }
-        //Left
-        if(p.second-1>=0 && box[p.first][p.second-1]==1){
-            box[p.first][p.second-1]=2;
-            q.push(pair<int,int>(p.first,p.second-1));
-            counter--;
-            if(counter==0) return true;
-        }
-        //Down
-        if(p.first+1<n && box[p.first+1][p.second]==1){
-            box[p.first+1][p.second]=2;
-            q.push(pair<int,int>(p.first+1,p.second));
-            counter--;
-            if(counter==0) return true;
-        }
-        //Up
-        if(p.first-1>=0 && box[p.first-1][p.second]==1){
-            box[p.first-1][p.second]=2;
-            q.push(pair<int,int>(p.first-1,p.second));
-            counter--;
-            if(counter==0) return true;
+
+        }else {
+            //Right
+            if (p.second + 1 < m && box[p.first][p.second + 1] == 1) {
+                box[p.first][p.second + 1] = 2;
+                q.push(pair<int, int>(p.first, p.second + 1));
+                counter--;
+                if (counter == 0) return true;
+            }
+            //Left
+            if (p.second - 1 >= 0 && box[p.first][p.second - 1] == 1) {
+                box[p.first][p.second - 1] = 2;
+                q.push(pair<int, int>(p.first, p.second - 1));
+                counter--;
+                if (counter == 0) return true;
+            }
+            //Down
+            if (p.first + 1 < n && box[p.first + 1][p.second] == 1) {
+                box[p.first + 1][p.second] = 2;
+                q.push(pair<int, int>(p.first + 1, p.second));
+                counter--;
+                if (counter == 0) return true;
+            }
+            //Up
+            if (p.first - 1 >= 0 && box[p.first - 1][p.second] == 1) {
+                box[p.first - 1][p.second] = 2;
+                q.push(pair<int, int>(p.first - 1, p.second));
+                counter--;
+                if (counter == 0) return true;
+            }
         }
     }
+    return false;
 }
