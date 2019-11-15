@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/petko/Workspace/FMI-Semester-3/Seminar/LinkedList/LL/LinkedList.h
+LinkedListIterator.h
+/home/petko/Workspace/FMI-Semester-3/Seminar/LinkedList/LL/LinkedListIterator.h
+Node.h
+/home/petko/Workspace/FMI-Semester-3/Seminar/LinkedList/LL/Node.h
+iostream
+-
+
+/home/petko/Workspace/FMI-Semester-3/Seminar/LinkedList/LL/LinkedListIterator.h
+Node.h
+/home/petko/Workspace/FMI-Semester-3/Seminar/LinkedList/LL/Node.h
+
+/home/petko/Workspace/FMI-Semester-3/Seminar/LinkedList/LL/Node.h
+
+/home/petko/Workspace/FMI-Semester-3/Seminar/LinkedList/main.cpp
+iostream
+-
+LL/LinkedList.h
+/home/petko/Workspace/FMI-Semester-3/Seminar/LinkedList/LL/LinkedList.h
+
