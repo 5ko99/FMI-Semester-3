@@ -4,8 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/petko/Workspace/FMI-Semester-3/Homework/Expressions/Parser.cpp" "/home/petko/Workspace/FMI-Semester-3/Homework/Expressions/cmake-build-debug/CMakeFiles/Expressions.dir/Parser.cpp.o"
-  "/home/petko/Workspace/FMI-Semester-3/Homework/Expressions/main.cpp" "/home/petko/Workspace/FMI-Semester-3/Homework/Expressions/cmake-build-debug/CMakeFiles/Expressions.dir/main.cpp.o"
+  "/home/petko/Workspace/FMI-Semester-3/Homework/MinimumMovesSolution/main.cpp" "/home/petko/Workspace/FMI-Semester-3/Homework/MinimumMovesSolution/cmake-build-debug/CMakeFiles/MinimumMovesSolution.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

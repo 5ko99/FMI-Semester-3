@@ -102,9 +102,6 @@
 		<Unit filename="/home/petko/Workspace/FMI-Semester-3/Homework/Expressions/Parser.h">
 			<Option target="Expressions"/>
 		</Unit>
-		<Unit filename="/home/petko/Workspace/FMI-Semester-3/Homework/Expressions/functions.cpp">
-			<Option target="Expressions"/>
-		</Unit>
 		<Unit filename="/home/petko/Workspace/FMI-Semester-3/Homework/Expressions/main.cpp">
 			<Option target="Expressions"/>
 		</Unit>

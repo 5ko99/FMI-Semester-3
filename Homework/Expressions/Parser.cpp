@@ -8,7 +8,6 @@ int Parser::calculate(const std::string& str){
     f* f1= new f;
     g* g1= new g;
     m* m1 = new m;
-    //IFunction* lastFunction;
     for(int i=0;i<str.length();i++){
         if(str[i]=='f') {
             stack.push(f1);
@@ -44,20 +43,4 @@ int Parser::calculate(const std::string& str){
         }
     }
     return stackInt.top();
-//    int res = stackInt.top();
-//    while(!stack.empty()){
-//       if(stack.top()==m1){
-//           res=stackInt.top();
-//           stackInt.pop();
-//           res=stack.top()->Execute(res,stackInt.top());
-//           stackInt.pop();
-//           stackInt.push(res);
-//       }else{
-//           res=stack.top()->Execute(stackInt.top());
-//           stackInt.pop();
-//           stackInt.push(res);
-//       }
-//       stack.pop();
-//    }
-//    return res;
 }

@@ -48,10 +48,10 @@ RM = /snap/clion/92/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/petko/Workspace/FMI-Semester-3/Homework/Expressions
+CMAKE_SOURCE_DIR = /home/petko/Workspace/FMI-Semester-3/Homework/MinimumMovesSolution
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/petko/Workspace/FMI-Semester-3/Homework/Expressions/cmake-build-debug
+CMAKE_BINARY_DIR = /home/petko/Workspace/FMI-Semester-3/Homework/MinimumMovesSolution/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/petko/Workspace/FMI-Semester-3/Homework/Expressions/cmake-build-debug/CMakeFiles /home/petko/Workspace/FMI-Semester-3/Homework/Expressions/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/petko/Workspace/FMI-Semester-3/Homework/MinimumMovesSolution/cmake-build-debug/CMakeFiles /home/petko/Workspace/FMI-Semester-3/Homework/MinimumMovesSolution/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/petko/Workspace/FMI-Semester-3/Homework/Expressions/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/petko/Workspace/FMI-Semester-3/Homework/MinimumMovesSolution/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,44 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Expressions
+# Target rules for targets named MinimumMovesSolution
 
 # Build rule for target.
-Expressions: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Expressions
-.PHONY : Expressions
+MinimumMovesSolution: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 MinimumMovesSolution
+.PHONY : MinimumMovesSolution
 
 # fast build rule for target.
-Expressions/fast:
-	$(MAKE) -f CMakeFiles/Expressions.dir/build.make CMakeFiles/Expressions.dir/build
-.PHONY : Expressions/fast
-
-Parser.o: Parser.cpp.o
-
-.PHONY : Parser.o
-
-# target to build an object file
-Parser.cpp.o:
-	$(MAKE) -f CMakeFiles/Expressions.dir/build.make CMakeFiles/Expressions.dir/Parser.cpp.o
-.PHONY : Parser.cpp.o
-
-Parser.i: Parser.cpp.i
-
-.PHONY : Parser.i
-
-# target to preprocess a source file
-Parser.cpp.i:
-	$(MAKE) -f CMakeFiles/Expressions.dir/build.make CMakeFiles/Expressions.dir/Parser.cpp.i
-.PHONY : Parser.cpp.i
-
-Parser.s: Parser.cpp.s
-
-.PHONY : Parser.s
-
-# target to generate assembly for a file
-Parser.cpp.s:
-	$(MAKE) -f CMakeFiles/Expressions.dir/build.make CMakeFiles/Expressions.dir/Parser.cpp.s
-.PHONY : Parser.cpp.s
+MinimumMovesSolution/fast:
+	$(MAKE) -f CMakeFiles/MinimumMovesSolution.dir/build.make CMakeFiles/MinimumMovesSolution.dir/build
+.PHONY : MinimumMovesSolution/fast
 
 main.o: main.cpp.o
 
@@ -156,7 +129,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/Expressions.dir/build.make CMakeFiles/Expressions.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/MinimumMovesSolution.dir/build.make CMakeFiles/MinimumMovesSolution.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -165,7 +138,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/Expressions.dir/build.make CMakeFiles/Expressions.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/MinimumMovesSolution.dir/build.make CMakeFiles/MinimumMovesSolution.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -174,7 +147,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/Expressions.dir/build.make CMakeFiles/Expressions.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/MinimumMovesSolution.dir/build.make CMakeFiles/MinimumMovesSolution.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -184,11 +157,8 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... Expressions"
+	@echo "... MinimumMovesSolution"
 	@echo "... edit_cache"
-	@echo "... Parser.o"
-	@echo "... Parser.i"
-	@echo "... Parser.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

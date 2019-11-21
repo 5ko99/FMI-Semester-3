@@ -8,8 +8,6 @@ CMakeFiles/Expressions.dir/Parser.cpp.o: ../Functions/m.h
 CMakeFiles/Expressions.dir/Parser.cpp.o: ../Parser.cpp
 CMakeFiles/Expressions.dir/Parser.cpp.o: ../Parser.h
 
-CMakeFiles/Expressions.dir/functions.cpp.o: ../functions.cpp
-
 CMakeFiles/Expressions.dir/main.cpp.o: ../Functions/IFunction.h
 CMakeFiles/Expressions.dir/main.cpp.o: ../Functions/f.h
 CMakeFiles/Expressions.dir/main.cpp.o: ../Functions/g.h

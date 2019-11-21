@@ -44,21 +44,21 @@ RM = /snap/clion/92/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/petko/Workspace/FMI-Semester-3/Homework/Expressions
+CMAKE_SOURCE_DIR = /home/petko/Workspace/FMI-Semester-3/Homework/MinimumMovesSolution
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/petko/Workspace/FMI-Semester-3/Homework/Expressions/cmake-build-debug
+CMAKE_BINARY_DIR = /home/petko/Workspace/FMI-Semester-3/Homework/MinimumMovesSolution/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/Expressions.dir/all
+all: CMakeFiles/MinimumMovesSolution.dir/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
-clean: CMakeFiles/Expressions.dir/clean
+clean: CMakeFiles/MinimumMovesSolution.dir/clean
 
 .PHONY : clean
 
@@ -68,31 +68,31 @@ preinstall:
 .PHONY : preinstall
 
 #=============================================================================
-# Target rules for target CMakeFiles/Expressions.dir
+# Target rules for target CMakeFiles/MinimumMovesSolution.dir
 
 # All Build rule for target.
-CMakeFiles/Expressions.dir/all:
-	$(MAKE) -f CMakeFiles/Expressions.dir/build.make CMakeFiles/Expressions.dir/depend
-	$(MAKE) -f CMakeFiles/Expressions.dir/build.make CMakeFiles/Expressions.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/petko/Workspace/FMI-Semester-3/Homework/Expressions/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target Expressions"
-.PHONY : CMakeFiles/Expressions.dir/all
+CMakeFiles/MinimumMovesSolution.dir/all:
+	$(MAKE) -f CMakeFiles/MinimumMovesSolution.dir/build.make CMakeFiles/MinimumMovesSolution.dir/depend
+	$(MAKE) -f CMakeFiles/MinimumMovesSolution.dir/build.make CMakeFiles/MinimumMovesSolution.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/petko/Workspace/FMI-Semester-3/Homework/MinimumMovesSolution/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target MinimumMovesSolution"
+.PHONY : CMakeFiles/MinimumMovesSolution.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Expressions.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/petko/Workspace/FMI-Semester-3/Homework/Expressions/cmake-build-debug/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Expressions.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/petko/Workspace/FMI-Semester-3/Homework/Expressions/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/Expressions.dir/rule
+CMakeFiles/MinimumMovesSolution.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/petko/Workspace/FMI-Semester-3/Homework/MinimumMovesSolution/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/MinimumMovesSolution.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/petko/Workspace/FMI-Semester-3/Homework/MinimumMovesSolution/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/MinimumMovesSolution.dir/rule
 
 # Convenience name for target.
-Expressions: CMakeFiles/Expressions.dir/rule
+MinimumMovesSolution: CMakeFiles/MinimumMovesSolution.dir/rule
 
-.PHONY : Expressions
+.PHONY : MinimumMovesSolution
 
 # clean rule for target.
-CMakeFiles/Expressions.dir/clean:
-	$(MAKE) -f CMakeFiles/Expressions.dir/build.make CMakeFiles/Expressions.dir/clean
-.PHONY : CMakeFiles/Expressions.dir/clean
+CMakeFiles/MinimumMovesSolution.dir/clean:
+	$(MAKE) -f CMakeFiles/MinimumMovesSolution.dir/build.make CMakeFiles/MinimumMovesSolution.dir/clean
+.PHONY : CMakeFiles/MinimumMovesSolution.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
