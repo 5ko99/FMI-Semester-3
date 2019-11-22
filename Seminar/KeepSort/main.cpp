@@ -26,10 +26,9 @@ list<int> intersectLists(list<int> & l1, list<int> & l2){
     list<int> result;
     int temp;
     for(int & it1:l1){
-        temp=it1;
         for(int & it2:l2){
-            if(temp==it2){
-                result.push_back(temp);
+            if(it1==it2){
+                result.push_back(it1);
                 break;
             }
         }

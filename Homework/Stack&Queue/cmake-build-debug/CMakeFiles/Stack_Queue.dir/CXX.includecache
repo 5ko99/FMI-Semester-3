@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/petko/Workspace/FMI-Semester-3/Homework/Stack&Queue/main.cpp
+iostream
+-
+string
+-
+vector
+-
+stack
+-
+queue
+-
+utility
+-
+list
+-
+

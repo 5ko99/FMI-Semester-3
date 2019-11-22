@@ -1,0 +1,3 @@
+C:\Users\grade\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\192.6603.37\bin\cmake\win\bin\cmake.exe -E remove -f CMakeFiles\REPLDesk.dir/objects.a
+C:\PROGRA~1\HASKEL~1\86E4AC~1.5\mingw\bin\ar.exe cr CMakeFiles\REPLDesk.dir/objects.a @CMakeFiles\REPLDesk.dir\objects1.rsp
+C:\PROGRA~1\HASKEL~1\86E4AC~1.5\mingw\bin\G__~1.EXE -g   -Wl,--whole-archive CMakeFiles\REPLDesk.dir/objects.a -Wl,--no-whole-archive  -o REPLDesk.exe -Wl,--out-implib,libREPLDesk.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\REPLDesk.dir\linklibs.rsp

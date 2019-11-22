@@ -1,0 +1,2 @@
+/usr/bin/ar qc libCycledLinkedList.a  CMakeFiles/CycledLinkedList.dir/library.cpp.o CMakeFiles/CycledLinkedList.dir/LinkedListIterator.cpp.o
+/usr/bin/ranlib libCycledLinkedList.a

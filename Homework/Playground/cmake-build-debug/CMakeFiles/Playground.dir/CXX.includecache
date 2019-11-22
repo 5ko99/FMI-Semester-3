@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/petko/Workspace/FMI-Semester-3/Homework/Playground/main.cpp
+iostream
+-
+forward_list
+-
+list
+-
+fstream
+-
+string
+-
+

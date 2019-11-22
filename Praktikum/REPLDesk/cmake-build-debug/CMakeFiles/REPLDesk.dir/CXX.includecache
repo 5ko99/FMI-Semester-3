@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/5ko/REPLDesk/Desk.cpp
+Desk.h
+C:/5ko/REPLDesk/Desk.h
+
+C:/5ko/REPLDesk/Desk.h
+vector
+-
+stack
+-
+string
+-
+

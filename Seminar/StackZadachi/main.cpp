@@ -10,7 +10,7 @@ int main() {
     return 0;
 }
 bool isDigit(char n){
-    return n >= 48 && n <= 57;
+    return n >= '0'&& n <= '9';
 }
 int getNumber(char n){
     return n-'0';

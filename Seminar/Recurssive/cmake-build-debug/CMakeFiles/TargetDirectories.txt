@@ -1,0 +1,3 @@
+D:/Petko/Recurssive/cmake-build-debug/CMakeFiles/Recurssive.dir
+D:/Petko/Recurssive/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Petko/Recurssive/cmake-build-debug/CMakeFiles/rebuild_cache.dir
