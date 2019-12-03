@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Petko/26.11.19/BinTree/TNode.h
+
+D:/Petko/26.11.19/BinTree/main.cpp
+iostream
+-
+TNode.h
+D:/Petko/26.11.19/BinTree/TNode.h
+

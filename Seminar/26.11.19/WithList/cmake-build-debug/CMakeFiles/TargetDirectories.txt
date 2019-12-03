@@ -1,0 +1,3 @@
+D:/Petko/26.11.19/WithList/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/Petko/26.11.19/WithList/cmake-build-debug/CMakeFiles/WithList.dir
+D:/Petko/26.11.19/WithList/cmake-build-debug/CMakeFiles/edit_cache.dir

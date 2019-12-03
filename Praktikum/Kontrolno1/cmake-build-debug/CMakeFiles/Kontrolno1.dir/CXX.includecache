@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/petko/Workspace/FMI-Semester-3/Praktikum/Kontrolno1/functions.h
+cstdlib
+-
+string
+-
+vector
+-
+stack
+-
+
+/home/petko/Workspace/FMI-Semester-3/Praktikum/Kontrolno1/main.cpp
+iostream
+-
+string
+-
+vector
+-
+functions.h
+/home/petko/Workspace/FMI-Semester-3/Praktikum/Kontrolno1/functions.h
+stack
+-
+

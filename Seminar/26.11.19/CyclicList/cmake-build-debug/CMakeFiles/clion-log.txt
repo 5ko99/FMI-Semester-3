@@ -1,0 +1,4 @@
+C:\Users\grade\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\192.6603.37\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" D:\Petko\26.11.19\CyclicList
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/Petko/26.11.19/CyclicList/cmake-build-debug
