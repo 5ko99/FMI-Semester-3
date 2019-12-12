@@ -52,5 +52,6 @@ int main() {
         executeCommand(cmd,args,s,history);
         //cout<<s<<endl;
     }
-    return 0;
+    return 0
+
 }

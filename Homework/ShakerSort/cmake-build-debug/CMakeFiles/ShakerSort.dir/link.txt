@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/ShakerSort.dir/main.cpp.o  -o ShakerSort 
