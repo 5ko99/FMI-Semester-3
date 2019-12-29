@@ -1,0 +1,3 @@
+/cygdrive/d/Workspace/FMI-Semester-3/Homework/Polish notation/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/d/Workspace/FMI-Semester-3/Homework/Polish notation/cmake-build-debug/CMakeFiles/Polish_notation.dir
+/cygdrive/d/Workspace/FMI-Semester-3/Homework/Polish notation/cmake-build-debug/CMakeFiles/edit_cache.dir
