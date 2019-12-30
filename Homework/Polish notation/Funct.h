@@ -6,12 +6,9 @@
 #define POLISH_NOTATION_FUNCT_H
 
 #include "TNode.h"
-#include <iostream>
 #include <string>
 #include <vector>
-#include <iterator>
-#include <sstream>
-#include <stack>
+#include <iostream>
 using Node=TNode<std::string>;
 std::vector<std::string> split(const std::string & strToSplit, char delim,std::vector<std::string> & data){
     std::string temp;
@@ -33,7 +30,7 @@ bool isOperator(const std::string & c){
 void createBinTreeRec(Node** p, std::vector<std::string> & a, int *currIdx){
     std::string currChar=a[*currIdx];
     *p = new Node(currChar);
-    //If the character is an operator, create 2 operand nodes as children
+    //If the character is an operator, create 2 nodes as children
     if (isOperator(currChar)){
         //Left
         ++(*currIdx);
@@ -56,12 +53,12 @@ void infix(Node* p){
         return;
     }
     if(p->left!= nullptr&&p->right!= nullptr)
-        std::cout<<"(";
+        printf("(");
     infix(p->left);
     printf("%s ", p->data.c_str());
     infix(p->right);
     if(p->left!= nullptr&&p->right!= nullptr)
-        std::cout<<")";
+        printf(")");
 }
 
 void postfix(Node* p){
