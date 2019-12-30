@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/d/Workspace/FMI-Semester-3/Homework/Polish notation/Funct.h
+TNode.h
+/cygdrive/d/Workspace/FMI-Semester-3/Homework/Polish notation/TNode.h
+string
+-
+vector
+-
+iostream
+-
+
+/cygdrive/d/Workspace/FMI-Semester-3/Homework/Polish notation/TNode.h
+
+/cygdrive/d/Workspace/FMI-Semester-3/Homework/Polish notation/main.cpp
+fstream
+-
+cassert
+-
+Funct.h
+/cygdrive/d/Workspace/FMI-Semester-3/Homework/Polish notation/Funct.h
+

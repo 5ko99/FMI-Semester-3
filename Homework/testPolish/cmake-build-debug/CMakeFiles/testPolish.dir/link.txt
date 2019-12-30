@@ -1,1 +1,0 @@
-/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/testPolish.dir/main.cpp.o  -o testPolish.exe -Wl,--out-implib,libtestPolish.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
