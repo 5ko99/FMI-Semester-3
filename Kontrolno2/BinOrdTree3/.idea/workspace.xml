@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="BinOrdTree3" targetName="BinOrdTree3" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fd861b6c-d62d-4c32-9161-939622f6d39b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Homework/Prep/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Prep/.idea/Prep.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Prep/Graph.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Prep/QuickSort.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/BinOrdTree3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinOrdTree/BinOrdTree.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinOrdTree/BinOrdTree.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinOrdTree/TNode.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pair.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/BinOrdTree3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/BinOrdTree3.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BinOrdTree3.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BinOrdTree3.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BinOrdTree3.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BinOrdTree3.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BinOrdTree3.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BinOrdTree3.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BinOrdTree3.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BinOrdTree3.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BinOrdTree3.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BinTree1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BinTree1/.idea/BinTree1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BinTree1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BinTree1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BinTree1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BinTree1/TNode.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GraphTree2/.idea/GraphTree2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GraphTree2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GraphTree2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GraphTree2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GraphTree2/Graph.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GraphTree2/TNode.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GraphTree2/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GraphTree2/cmake-build-debug/CMakeFiles/3.15.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GraphTree2/cmake-build-debug/CMakeFiles/3.15.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GraphTree2/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GraphTree2/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GraphTree2/cmake-build-debug/CMakeFiles/3.15.3/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GraphTree2/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GraphTree2/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GraphTree2/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GraphTree2/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GraphTree2/cmake-build-debug/CMakeFiles/GraphTree2.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GraphTree2/cmake-build-debug/CMakeFiles/GraphTree2.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GraphTree2/cmake-build-debug/CMakeFiles/GraphTree2.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GraphTree2/cmake-build-debug/CMakeFiles/GraphTree2.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GraphTree2/cmake-build-debug/CMakeFiles/GraphTree2.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GraphTree2/cmake-build-debug/CMakeFiles/GraphTree2.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GraphTree2/cmake-build-debug/CMakeFiles/GraphTree2.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GraphTree2/cmake-build-debug/CMakeFiles/GraphTree2.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GraphTree2/cmake-build-debug/CMakeFiles/GraphTree2.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GraphTree2/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GraphTree2/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GraphTree2/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GraphTree2/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GraphTree2/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GraphTree2/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GraphTree2/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GraphTree2/cmake-build-debug/GraphTree2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GraphTree2/cmake-build-debug/GraphTree2.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GraphTree2/cmake-build-debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GraphTree2/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Praktikum/20.11.19/REPL" beforeDir="false" afterPath="$PROJECT_DIR$/../../Praktikum/20.11.19/REPL" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1Vy6zqbcYX8YBxh72fh1zPh5Z8P" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunManager">
+    <configuration name="BinOrdTree3" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BinOrdTree3" TARGET_NAME="BinOrdTree3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="BinOrdTree3" RUN_TARGET_NAME="BinOrdTree3">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fd861b6c-d62d-4c32-9161-939622f6d39b" name="Default Changelist" comment="" />
+      <created>1578213252877</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578213252877</updated>
+      <workItem from="1578213254744" duration="3158000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1878" height="341" key="GridCell.Tab.0.bottom" timestamp="1578216413023">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="341" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578216413023" />
+    <state width="1878" height="341" key="GridCell.Tab.0.center" timestamp="1578216413021">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="341" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578216413021" />
+    <state width="1878" height="341" key="GridCell.Tab.0.left" timestamp="1578216413020">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="341" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578216413020" />
+    <state width="1878" height="341" key="GridCell.Tab.0.right" timestamp="1578216413022">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="341" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578216413022" />
+    <state width="1878" height="341" key="GridCell.Tab.1.bottom" timestamp="1578216413027">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="341" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578216413027" />
+    <state width="1878" height="341" key="GridCell.Tab.1.center" timestamp="1578216413025">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="341" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578216413025" />
+    <state width="1878" height="341" key="GridCell.Tab.1.left" timestamp="1578216413024">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="341" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578216413024" />
+    <state width="1878" height="341" key="GridCell.Tab.1.right" timestamp="1578216413026">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="341" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578216413026" />
+    <state x="100" y="99" width="1720" height="840" key="dock-window-1" timestamp="1578213333288">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="100" y="99" width="1720" height="840" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1578213333288" />
+    <state x="623" y="228" width="672" height="678" key="search.everywhere.popup" timestamp="1578215164804">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="228" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1578215164804" />
+  </component>
+</project>

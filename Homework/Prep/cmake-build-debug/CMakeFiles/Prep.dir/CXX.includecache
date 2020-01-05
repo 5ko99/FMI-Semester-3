@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/petko/Workspace/FMI-Semester-3/Homework/Prep/Graph.h
+iostream
+-
+list
+-
+vector
+-
+queue
+-
+
+/home/petko/Workspace/FMI-Semester-3/Homework/Prep/QuickSort.h
+vector
+-
+
+/home/petko/Workspace/FMI-Semester-3/Homework/Prep/main.cpp
+iostream
+-
+QuickSort.h
+/home/petko/Workspace/FMI-Semester-3/Homework/Prep/QuickSort.h
+Graph.h
+/home/petko/Workspace/FMI-Semester-3/Homework/Prep/Graph.h
+

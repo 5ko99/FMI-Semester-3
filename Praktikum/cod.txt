@@ -1,0 +1,11 @@
+string commandLine="";
+string commandName="";
+vector<string> arguments;
+stringstream commandStream(commandName);
+getline(cin,comandLine);
+commandStream<<command Line;
+string token;
+while(commandStream) {
+	commandStream>>token;
+	arguments.push_back(token);
+}

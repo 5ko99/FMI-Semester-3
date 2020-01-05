@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/petko/Workspace/FMI-Semester-3/Kontrolno/BinOrdTree3/BinOrdTree/BinOrdTree.h
+TNode.h
+/home/petko/Workspace/FMI-Semester-3/Kontrolno/BinOrdTree3/BinOrdTree/TNode.h
+iostream
+-
+
+/home/petko/Workspace/FMI-Semester-3/Kontrolno/BinOrdTree3/BinOrdTree/TNode.h
+
+/home/petko/Workspace/FMI-Semester-3/Kontrolno/BinOrdTree3/Pair.h
+iostream
+-
+
+/home/petko/Workspace/FMI-Semester-3/Kontrolno/BinOrdTree3/main.cpp
+iostream
+-
+BinOrdTree/BinOrdTree.h
+/home/petko/Workspace/FMI-Semester-3/Kontrolno/BinOrdTree3/BinOrdTree/BinOrdTree.h
+Pair.h
+/home/petko/Workspace/FMI-Semester-3/Kontrolno/BinOrdTree3/Pair.h
+

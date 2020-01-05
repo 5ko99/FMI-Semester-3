@@ -1,0 +1,30 @@
+long largestRectangle(vector<int> h)
+{
+	h.push_back(0);
+
+	int maxArea = 0;
+
+	stack<int> indexesStack;
+
+	for (int i = 0; i < h.size(); i++) 
+	{
+		while (
+			!indexesStack.empty() && 
+			h[indexesStack.top()] >= h[i]
+			) 
+		{
+			const int index = indexesStack.top();
+			int height = h[index];
+			indexesStack.pop();
+
+			int leftPart = indexesStack.empty() 
+				? 0 : indexesStack.top() + 1;
+			int rightPart = i - 1;
+			maxArea = max(maxArea, (rightPart - leftPart + 1) * height);
+		}
+
+		indexesStack.push(i);
+	}
+	return maxArea;
+
+}

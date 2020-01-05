@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/petko/Workspace/FMI-Semester-3/Kontrolno/BinTree1/TNode.h
+
+/home/petko/Workspace/FMI-Semester-3/Kontrolno/BinTree1/main.cpp
+iostream
+-
+TNode.h
+/home/petko/Workspace/FMI-Semester-3/Kontrolno/BinTree1/TNode.h
+

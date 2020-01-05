@@ -1,0 +1,3 @@
+D:/Petko/17.12.19/BinOrdTree/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/Petko/17.12.19/BinOrdTree/cmake-build-debug/CMakeFiles/BinOrdTree.dir
+D:/Petko/17.12.19/BinOrdTree/cmake-build-debug/CMakeFiles/edit_cache.dir

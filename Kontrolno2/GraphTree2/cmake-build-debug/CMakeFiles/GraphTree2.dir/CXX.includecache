@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/petko/Workspace/FMI-Semester-3/Kontrolno/GraphTree2/Graph.h
+iostream
+-
+list
+-
+vector
+-
+queue
+-
+
+/home/petko/Workspace/FMI-Semester-3/Kontrolno/GraphTree2/TNode.h
+
+/home/petko/Workspace/FMI-Semester-3/Kontrolno/GraphTree2/main.cpp
+iostream
+-
+vector
+-
+string
+-
+TNode.h
+/home/petko/Workspace/FMI-Semester-3/Kontrolno/GraphTree2/TNode.h
+Graph.h
+/home/petko/Workspace/FMI-Semester-3/Kontrolno/GraphTree2/Graph.h
+
